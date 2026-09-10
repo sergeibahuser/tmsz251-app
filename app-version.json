@@ -1,0 +1,13 @@
+{
+  "version": "2.1",
+  "date": "2026-09-15T10:00:00Z",
+  "apkUrl": "https://github.com/sergeibahuser/tmsz251-app/releases/download/v2.1/tmsz251.apk",
+  "apkSize": "5.2 МБ",
+  "mandatory": false,
+  "changelog": [
+    "🎨 Улучшен дизайн карточек",
+    "🔧 Починен редактор расписания",
+    "🔔 Добавлены push-уведомления",
+    "🐛 Исправлено 5 ошибок"
+  ]
+}
