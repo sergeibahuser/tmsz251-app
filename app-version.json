@@ -1,7 +1,7 @@
 {
   "version": "3.2",
   "date": "2026-09-17T18:00:00",
-  "apkUrl": "https://github.com/sergeibahuser/tmsz251-app/releases/download/v3.2/tmsz251_v3.2.apk",
+  "apkUrl": "https://raw.githubusercontent.com/sergeibahuser/tmsz251-app/refs/heads/main/tmsz251_update.apk",
   "apkSize": "~6 МБ",
   "mandatory": false,
   "changelog": [
