@@ -1,11 +1,10 @@
 {
-  "version": "3.1",
+  "version": "3.2",
   "date": "2026-09-17T18:00:00",
-  "apkUrl": "https://raw.githubusercontent.com/sergeibahuser/tmsz251-app/refs/heads/main/tmsz251_update.apk",
+  "apkUrl": "https://github.com/sergeibahuser/tmsz251-app/releases/download/v3.2/tmsz251_v3.2.apk",
   "apkSize": "~6 МБ",
   "mandatory": false,
   "changelog": [
-    [
     "✨ Добавлено: Новый раздел «Перевод единиц» — 12 категорий (давление, длина, масса, площадь, объём, температура, скорость, энергия, мощность, углы, время, сила)",
     "✨ Добавлено: Универсальный знак умножения в конвертере — * × · х работают одинаково",
     "✨ Добавлено: Степени как в учебнике — 5 · 10⁵ вместо 5×10⁵",
