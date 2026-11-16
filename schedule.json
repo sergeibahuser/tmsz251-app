@@ -1,13 +1,6 @@
 {
-  "version": "4.4",
-  "date": "2026-12-15T08:30:00Z",
-  "changelog": [
-    "📅 Расписание на зимнюю экзаменационную сессию (15.12 – 23.12.2026)",
-    "🏫 Формат аудиторий: 1 корпус, ауд. XXX",
-    "🎓 Добавлены экзамены, зачёты и защиты курсовых",
-    "🚪 Общие форточки (окна) теперь одним объектом (без split)",
-    "👥 Разделение на подгруппы только там, где есть разные пары"
-  ],
+  "version": "4.5",
+  "type": "schedule",
   "data": {
     "2026-12-15": {
       "label": "ВТ 15 дек",
@@ -52,9 +45,9 @@
          "subgroup2": {"subject": "Дискретная математика и математическое моделирование", "subgroup": "ТМСЗ-251-2", "type": "Лабораторная", "room": "1 корпус, ауд. 233", "teacher": "Примак И.У."}
         },
         {"time": "10:25", "subject": "Режущий инструмент", "type": "Лекция", "room": "1 корпус, ауд. 107", "teacher": "Тарадейко И.А.", "split": false},
-        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "split": false},
+        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "fortochka": true, "split": false},
         {"time": "14:20", "subject": "Математика", "type": "Практика", "room": "1 корпус, ауд. 549", "teacher": "Бондарев А.Н.", "split": false},
-        {"time": "16:05", "window": {"from": "15:55", "to": "17:50", "duration": "1 ч 55 мин"}, "split": false}
+        {"time": "16:05", "window": {"from": "15:55", "to": "17:50", "duration": "1 ч 55 мин"}, "fortochka": true, "split": false}
       ]
     },
     "2026-12-19": {
@@ -73,8 +66,8 @@
       "label": "ПН 21 дек",
       "lessons": [
         {"time": "08:30", "subject": "Курсовой проект по дисциплине Режущий инструмент", "type": "Защита курсовой", "room": "1 корпус, ауд. 105", "teacher": "Тарадейко И.А.", "important": true, "split": false},
-        {"time": "10:25", "window": {"from": "10:05", "to": "12:00", "duration": "1 ч 55 мин"}, "split": false},
-        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "split": false},
+        {"time": "10:25", "window": {"from": "10:05", "to": "12:00", "duration": "1 ч 55 мин"}, "fortochka": true, "split": false},
+        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "fortochka": true, "split": false},
         {"time": "14:20", "subject": "Информационные технологии и 3D моделирование", "type": "Экзамен", "room": "1 корпус, ауд. 449", "teacher": "Миронова М.Н.", "important": true, "split": false},
         {"time": "16:05", "subject": "Информационные технологии и 3D моделирование", "type": "Экзамен", "room": "1 корпус, ауд. 449", "teacher": "Миронова М.Н.", "important": true, "split": false},
         {"time": "17:50", "subject": "Курсовая работа по учебной дисциплине Информационные технологии и 3D моделирование", "type": "Лекция", "room": "1 корпус, ауд. 449", "teacher": "Миронова М.Н.", "split": false},
@@ -86,7 +79,7 @@
       "lessons": [
         {"time": "08:30", "subject": "Теория механизмов и машин", "type": "Экзамен", "room": "1 корпус, ауд. 501", "teacher": "Благодарная О.В.", "important": true, "split": false},
         {"time": "10:25", "subject": "Теория механизмов и машин", "type": "Экзамен", "room": "1 корпус, ауд. 501", "teacher": "Благодарная О.В.", "important": true, "split": false},
-        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "split": false},
+        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "fortochka": true, "split": false},
         {"time": "14:20", "subject": "Математика", "type": "Зачёт", "room": "1 корпус, ауд. 549", "teacher": "Бондарев А.Н.", "important": true, "split": false}
       ]
     },
@@ -95,7 +88,7 @@
       "lessons": [
         {"time": "08:30", "subject": "Режущий инструмент", "type": "Экзамен", "room": "1 корпус, ауд. 142", "teacher": "Тарадейко И.А.", "important": true, "split": false},
         {"time": "10:25", "subject": "Режущий инструмент", "type": "Экзамен", "room": "1 корпус, ауд. 142", "teacher": "Тарадейко И.А.", "important": true, "split": false},
-        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "split": false},
+        {"time": "12:30", "window": {"from": "12:00", "to": "14:20", "duration": "2 ч 20 мин"}, "fortochka": true, "split": false},
         {"time": "14:20", "subject": "Дискретная математика и математическое моделирование", "type": "Зачёт", "room": "1 корпус, ауд. 233", "teacher": "Козлов А.Г.", "important": true, "split": false},
         {"time": "16:05", "subject": "Дискретная математика и математическое моделирование", "type": "Зачёт", "room": "1 корпус, ауд. 233", "teacher": "Козлов А.Г.", "important": true, "split": false}
       ]
